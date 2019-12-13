@@ -1,0 +1,7 @@
+/.idea
+/maven-master-project.iml
+/target
+/modules/jacoco-aggregator-module/target
+/modules/jacoco-aggregator-module/*.iml
+*.iml
+*.log
