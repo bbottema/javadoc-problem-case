@@ -6,14 +6,13 @@
     <parent>
         <groupId>com.github.bbottema</groupId>
         <artifactId>modular-project-parent</artifactId>
-        <version>1.0.11</version>
+        <version>1.0.12-SNAPSHOT</version>
+        <relativePath>./external-parents/modular-project-parent.xml</relativePath>
     </parent>
 
     <artifactId>module-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
-    <inceptionYear>2009</inceptionYear>
-
     <name>Master pom</name>
 
     <!-- to skip some steps: -DskipTests -Dspotbugs.skip=true -Dmaven.javadoc.skip=true -Denforcer.skip=true -Djacoco.skip=true -Dlicense.skip=true -->
@@ -31,9 +30,6 @@
                 <executions>
                     <execution>
                         <id>jar</id>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
                         <configuration>
                             <show>private</show>
                         </configuration>
